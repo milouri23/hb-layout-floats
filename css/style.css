@@ -69,7 +69,6 @@
 @media (max-width: 500px) {
     .big-section, .small-section {
         width: 100%;
-        float: none;
         margin-bottom: 20px;
     }
 }
