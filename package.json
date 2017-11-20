@@ -4,7 +4,8 @@
   "description": "",
   "private": true,
   "scripts": {
-    "build": "node-sass css/style.scss css/style.css --output-style compressed"
+    "build": "npm run lint && node-sass css/style.scss css/style.css --output-style compressed",
+    "lint": "stylelint 'css/**/*.scss' --config .styleintrc --syntax scss"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,9 @@
   },
   "homepage": "https://github.com/milouri23/hb-layout-floats#readme",
   "devDependencies": {
-    "node-sass": "^4.7.1"
+    "node-sass": "^4.7.1",
+    "stylelint": "^8.2.0",
+    "stylelint-config-recommended-scss": "^2.0.0",
+    "stylelint-scss": "^2.1.0"
   }
 }
