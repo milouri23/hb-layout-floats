@@ -1,0 +1,22 @@
+{
+  "name": "hb-layout-floats",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "node-sass css/style.scss css/style.css --output-style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milouri23/hb-layout-floats.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milouri23/hb-layout-floats/issues"
+  },
+  "homepage": "https://github.com/milouri23/hb-layout-floats#readme",
+  "devDependencies": {
+    "node-sass": "^4.7.1"
+  }
+}
