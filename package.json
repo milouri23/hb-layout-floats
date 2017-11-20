@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/milouri23/hb-layout-floats#readme",
   "devDependencies": {
+    "husky": "^0.14.3",
     "node-sass": "^4.7.1",
     "stylelint": "^8.2.0",
     "stylelint-config-recommended-scss": "^2.0.0",
